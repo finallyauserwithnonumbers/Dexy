@@ -96,7 +96,7 @@ class Bot(commands.AutoShardedBot):
                 await self.invoke(ctx)
 
     async def on_connect(self):
-        print("Connected")
+        print("Connected!")
 
     async def on_message(self, message:discord.Message):
         if message.author.bot:return
